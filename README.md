@@ -1,2 +1,2 @@
 # Social-Links-Profile
-https://github.com/shawayush98/Social-Links-Profile.git
+https://shawayush98.github.io/Social-Links-Profile/
