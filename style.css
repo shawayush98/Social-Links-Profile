@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter";
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    width: 22vw;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.first {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.content {
+    text-align: center;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 1.7em;
+    font-weight: 400;
+}
+
+.content p {
+    color: hsl(75, 94%, 57%);
+    margin: 10px;
+    font-weight: 600;
+    font-size: .9em;
+
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 10px;
+}
+
+.about p {
+    text-align: center;
+    font-size: .9em;;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+}
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    padding: 12px 10px;
+    border-radius: 7px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .card {
+        width: 75vw;
+    }
+}
